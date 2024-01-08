@@ -1,0 +1,31 @@
+.product{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    border-radius: 5px;
+    border: 1px solid silver;
+}
+
+.product-image{
+    flex: 0 0 100px;
+    margin-right: 40px;
+}
+
+.product-image img{
+    display: block;
+    max-width: 160px;
+    height: auto;
+}
+
+.btn{
+    background-color: orange;
+    border-color: darkgoldenrod darkgoldenrod;
+    color: black;
+    border-radius: 2px;    
+    padding: 8px 10px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bolder;
+    margin-top: 8px;
+}
+
